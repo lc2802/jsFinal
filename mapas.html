@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mapa</title>
+
+    <script src="./scripts.js"></script>
+
+    <!-- Enlace a los archivos CSS de Bootstrap desde el CDN -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/ol@10.0.0/dist/ol.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ol@10.0.0/ol.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <header
+      class="header d-flex align-items-center justify-content-between p-3"
+    >
+      <div class="logo-container d-flex align-items-center">
+        <img src="media/logo.png" alt="Logo" class="logo mr-3" />
+        <h1 class="header-title m-0">BaseMap</h1>
+      </div>
+      <nav class="navigation d-flex">
+        <a href="index.html" class="btn btn-light mx-2">Inicio</a>
+        <a href="mapas.html" class="btn btn-light mx-2">Mapas</a>
+        <!-- <button class="btn btn-light mx-2">Acerca de</button> -->
+      </nav>
+    </header>
+  </head>
+  <body>
+    <br />
+    <div id="map" style="width: 50%; height: 50vh"></div>
+    <br />
+  </body>
+</html>
