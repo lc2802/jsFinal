@@ -13,7 +13,6 @@ function crearMapa(mapa, capasSeleccionadas) {
   }
 
   const LAYERS = [];
-console.log(mapa)
   const wmsLayerBase = new ol.layer.Tile({
     source: new ol.source.TileWMS({
       url: wms1,
